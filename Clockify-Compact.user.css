@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name           Clockify Compact
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A style that makes the main Clockify view more compact
+@author         Daniël Brand
+==/UserStyle== */
+
+.cl-flex-container {
+    padding: 0.05rem 0;
+}
+
+.cl-tracker-entries-wrapper {
+    margin-top: 5rem;
+}
+
+.cl-component-divided-left {
+    padding: 0 1rem;
+}
+
+.cl-component-divided-left:before {
+    padding: 1.4286rem 0;
+    margin: 0 1rem 0 -1rem;
+}
+@-moz-document domain("app.clockify.me") {
+    /* Insert code here... */
+}
