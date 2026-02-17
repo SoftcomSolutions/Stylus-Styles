@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name           Trello Large Cards
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A style that primarily enlarges the Card view and some smaller tweaks.
+@author         Daniël Brand
+==/UserStyle== */
+/* Was fixed:*/
+/*
+.plugin-iframe {
+    height: 175px !important
+}*/
+/* The padding around the lists. */
+.Iq1byT5o1KoAi6 {
+    padding: 0px 2px;
+}
+
+/* The paddding around the edge of the page. */
+.n80e5b1uQjSot9 {
+    padding: 0px 8px 8px;
+}
+
+/* The padding for the title bar (the one directly above the lists) */
+.Tp0C38uQUEpYUw {
+    padding: 6px;
+}
+
+/* Board switcher margin */
+.jLE365N1Zr169x.I9V3yhYpoSOVk3 {
+    margin-right: 4px;
+}
+
+.board-canvas {
+    margin-top: 6px;
+}
+
+/* Card view width */
+.BvYMUSHQ3VZhSV.udR7hhdNKnONkc {
+    width: 95vw
+}
+
+/* Left part of card width */
+.lQUUwFFqPNu94w .t6cNjdAqr4XLQt {
+    max-width: none
+}
+
+/* Right part of card width */
+.KCpLKkH5OYrE15 {
+    width: 50% !important
+}
+
+/* Edit, delete, add buttons */
+.lQUUwFFqPNu94w .wc06Ow6i2YO3aG hgroup {
+    max-width: none
+}
+
+/* Integration table width */
+.container, .container-md, .container-sm {
+    max-width: none
+}
+
+@-moz-document domain("trello.com") {
+    /* Insert code here... */
+}
